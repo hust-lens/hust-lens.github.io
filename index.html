@@ -217,7 +217,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Two columns */
         gap: 10px; /* Gap between videos */
-        width: 60%; /* Set the container width to 60% */
+        width: 80%; /* Set the container width to 60% */
         margin: 0 auto; /* Center the container horizontally */
     }
 
@@ -236,34 +236,42 @@
     <div class="container">
       <div class="carousel-extra-padding">
         <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-swing_tire">
-            <video class="carousel-video" id="swing_tire" controls muted loop playsinline height="100%" poster="static/images/swing_tire.jpg" data-src="./static/videos/swing_tire.mp4" type="video/mp4">
+          <div class="item item-snail_shell">
+            <video class="carousel-video" id="snail_shell" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo1.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item item-tennis">
-            <video class="carousel-video" id="tennis" controls muted loop playsinline height="100%" poster="static/images/tennis.jpg" data-src="./static/videos/tennis.mp4" type="video/mp4">
+          <div class="item item-sail">
+            <video class="carousel-video" id="sail" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo2.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item item-libby">
-            <video class="carousel-video" id="libby" controls muted loop playsinline height="100%" poster="static/images/libby.jpg" data-src="./static/videos/libby.mp4" type="video/mp4">
+          <div class="item item-antlers">
+            <video class="carousel-video" id="antlers" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo4.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item item-soapbox">
-            <video class="carousel-video" id="soapbox" controls muted loop playsinline height="100%" poster="static/images/soapbox.jpg" data-src="./static/videos/soapbox.mp4" type="video/mp4">
+          <div class="item item-dashboard">
+            <video class="carousel-video" id="dashboard" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo5.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item item-snowy-trees">
-            <video class="carousel-video" id="snowy-trees" controls muted loop playsinline height="100%" poster="static/images/snowy-trees.jpg" data-src="./static/videos/snowy-trees.mp4" type="video/mp4">
+          <div class="item item-trees">
+            <video class="carousel-video" id="trees" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo6.mp4" type="video/mp4">
             </video>
           </div>
-          <div class="item item-birch">
-            <video class="carousel-video" id="birch" controls muted loop playsinline height="100%" poster="static/images/birch.jpg" data-src="./static/videos/birch.mp4" type="video/mp4">
+          <div class="item item-skis">
+            <video class="carousel-video" id="skis" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo7.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-ferrari">
+            <video class="carousel-video" id="ferrari" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo9.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="item item-mario">
+            <video class="carousel-video" id="mario" controls muted loop playsinline height="100%" data-src="./static/videos/good/demo13.mp4" type="video/mp4">
             </video>
           </div>
         </div>
       </div>
     </div>
-  <p style="margin-top: 5px; text-align: center; margin-bottom: -15px;">Trail visualization</p>
+  <p style="margin-top: 5px; text-align: center; margin-bottom: -15px;">ReasonSeg Reasoning Demos</p>
   </div>
 </section>
 <br>
@@ -271,43 +279,26 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
-      <div class="carousel-extra-padding">
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item item-giraffe">
-            <video class="carousel-video" id="giraffe" controls muted loop playsinline height="100%" poster="static/images/giraffe.jpg" data-src="./static/videos/giraffe.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item item-india">
-            <video class="carousel-video" id="india" controls muted loop playsinline height="100%" poster="static/images/india.jpg" data-src="./static/videos/india.mp4">
-            </video>
-          </div>
-          <div class="item item-longboard">
-            <video class="carousel-video" id="longboard" controls muted loop playsinline height="100%" poster="static/images/longboard.jpg" data-src="./static/videos/longboard.mp4">
-            </video>
-          </div>
-          <div class="item item-squirrel">
-            <video class="carousel-video" id="squirrel" controls muted loop playsinline height="100%" poster="static/images/squirrel.jpg" data-src="./static/videos/squirrel.mp4">
-            </video>
-          </div>
-          <div class="item item-hike">
-            <video class="carousel-video" id="hike" controls muted loop playsinline height="100%" poster="static/images/hike.jpg" data-src="./static/videos/hike.mp4" type="video/mp4">
-            </video>
-          </div>   
-          <div class="item item-flamingo">
-            <video class="carousel-video" id="flamingo" controls muted loop playsinline height="100%" poster="static/images/flamingo.jpg" data-src="./static/videos/flamingo.mp4" type="video/mp4">
-            </video>
-          </div>
-          <div class="item item-walking">
-            <video class="carousel-video" id="walking" controls muted loop playsinline height="100%" poster="static/images/walking.jpg" data-src="./static/videos/walking.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
+      <div class="image-column" style="margin-top: 20px;">
+        <div class="image-item" style="text-align: center; margin-bottom: 20px;">
+          <img src="./static/images/spatial_understanding_example.png" alt="Demo 1" style="width: 100%; border-radius: 8px;">
+        </div>
+        <div class="image-item" style="text-align: center; margin-bottom: 20px;">
+          <img src="./static/images/multi_object_disambiguation.png" alt="Demo 2" style="width: 100%; border-radius: 8px;">
+        </div>
+        <div class="image-item" style="text-align: center; margin-bottom: 20px;">
+          <img src="./static/images/complex_referring_expression.png" alt="Demo 3" style="width: 100%; border-radius: 8px;">
+        </div>
+        <div class="image-item" style="text-align: center; margin-bottom: 20px;">
+          <img src="./static/images/misguided_context.png" alt="Demo 4" style="width: 100%; border-radius: 8px;">
         </div>
       </div>
     </div>
-  <p style="margin-top: 5px; text-align: center; margin-bottom: -15px;">Point visualization. Points detected as occluded are marked as "+" </p>
+  <p style="margin-top: 5px; text-align: center; margin-bottom: -15px;">Referring Expression Segmentation</p>
   </div>
 </section>
+
+
 
 <br>
 <br>
@@ -351,7 +342,7 @@
 <section class="section" id="Acknowledgements">
   <div class="container is-max-desktop content">
     <h2 class="title is-3">Acknowledgements</h2>
-    We thank hustvl and vivo.
+    We would like to express our sincere gratitude to everyone who contributed to this work, including those who provided valuable discussions, technical support, and inspiration.
   </div>
 </section>
 
